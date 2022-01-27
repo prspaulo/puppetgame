@@ -547,6 +547,186 @@
         "name": "fantoche_Prancheta 15.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fantoche mal/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fantoche mal\\2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -800,7 +980,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche_Prancheta 12.png",
+                      "image": "fantoche mal\\1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -825,11 +1005,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.15000000596046448,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-02.png",
+                      "image": "fantoche mal\\3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -846,7 +1026,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-032.png",
+                      "image": "fantoche mal\\4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -863,7 +1043,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-042.png",
+                      "image": "fantoche mal\\5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -880,7 +1060,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-052.png",
+                      "image": "fantoche mal\\6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -897,7 +1077,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-062.png",
+                      "image": "fantoche mal\\7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -914,7 +1094,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-02.png",
+                      "image": "fantoche mal\\8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -931,7 +1111,279 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche_Prancheta 1.png",
+                      "image": "fantoche mal\\9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -956,11 +1408,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.30000001192092896,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-072.png",
+                      "image": "fantoche mal\\14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -977,7 +1429,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-082.png",
+                      "image": "fantoche mal\\15.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -994,7 +1446,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche-093.png",
+                      "image": "fantoche mal\\16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1011,7 +1463,177 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fantoche_Prancheta 13.png",
+                      "image": "fantoche mal\\17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "fantoche mal\\1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1036,7 +1658,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.009999999776482582,
                   "sprites": []
                 }
               ]
