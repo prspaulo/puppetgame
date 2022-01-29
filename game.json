@@ -1375,6 +1375,15 @@
         "name": "Variações avatar\\botão-selecionar-Kai.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Variações do fantoche/fantoche mal/28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Variações do fantoche\\fantoche mal\\28.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1406,7 +1415,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4399999999999995,
+        "zoomFactor": 0.4199999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4412,8 +4421,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "jogo",
+      "name": "jogo",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -5306,7 +5315,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.07000000029802322,
+                  "timeBetweenFrames": 0.07999999821186066,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -5814,360 +5823,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "Variações do fantoche\\fantoche bom\\10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche bom\\8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 112,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 304,
-                            "y": 3.5
-                          },
-                          {
-                            "x": 294,
-                            "y": 370
-                          },
-                          {
-                            "x": 82,
-                            "y": 352.5
-                          },
-                          {
-                            "x": 110,
-                            "y": 245.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 198.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 231.5
-                          },
-                          {
-                            "x": 82,
-                            "y": 188.5
-                          },
-                          {
-                            "x": 124,
-                            "y": 37.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Variações do fantoche\\fantoche bom\\4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6233,6 +5889,57 @@
                   "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche bom\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche bom\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche bom\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Variações do fantoche\\fantoche bom\\28.png",
@@ -7398,7 +7105,58 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche bom\\28.png",
+                      "image": "Variações do fantoche\\fantoche mal\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche mal\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche mal\\28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações do fantoche\\fantoche mal\\28.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8549,7 +8307,7 @@
                     "Player",
                     "\"Ativ\" ",
                     ">",
-                    "0.2"
+                    "1.0"
                   ],
                   "subInstructions": []
                 }
@@ -8581,8 +8339,8 @@
                       "parameters": [
                         "",
                         "Corte",
-                        "Player.X()-200",
-                        "Player.Y()+200",
+                        "Player.X()-100",
+                        "Player.Y()+170",
                         ""
                       ],
                       "subInstructions": []
@@ -8626,8 +8384,8 @@
                       "parameters": [
                         "",
                         "Corte",
-                        "Player.X()+200\n",
-                        "Player.Y()+100",
+                        "Player.X()+320\n",
+                        "Player.Y()+170\n",
                         ""
                       ],
                       "subInstructions": []
@@ -9263,8 +9021,45 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Arqui_Inimigo",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Arqui_Inimigo"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Arqui_Inimigo",
+                "Acao",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
