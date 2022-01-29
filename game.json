@@ -1100,7 +1100,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3599999999999996,
+        "zoomFactor": 0.43999999999999967,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1307,8 +1307,8 @@
           "name": "Parede",
           "persistentUuid": "5e1671dd-1c55-4281-bef4-561194a58278",
           "width": 0,
-          "x": -347,
-          "y": 1,
+          "x": -344,
+          "y": 4,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1323,8 +1323,8 @@
           "name": "Parede",
           "persistentUuid": "cb17cbd7-f41e-4860-a641-637e1a34338f",
           "width": 0,
-          "x": 2209,
-          "y": 1,
+          "x": 2207,
+          "y": 2,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2762,60 +2762,16 @@
             {
               "type": {
                 "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
+                "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
                 "Player",
-                "yes"
+                "PlatformerObject"
               ],
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "disabled": false,
@@ -2824,11 +2780,12 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "Player"
+                    "Player",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
@@ -2837,128 +2794,19 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
                     "Player",
-                    "\"Default\""
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
               ],
               "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "f"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "Player"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Default\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "no"
-              ],
-              "subInstructions": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
@@ -2966,10 +2814,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AnimationEnded"
+                    "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "Player"
+                    "Player",
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
@@ -2978,87 +2827,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "ChangeAnimation"
                   },
                   "parameters": [
                     "Player",
-                    "\"Default\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Right"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "Player",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeAnimation"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "Player"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "\"Default\""
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
