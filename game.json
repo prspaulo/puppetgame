@@ -11324,13 +11324,7 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Text_AutoTyping",
-              "type": "AutoTyping::Text_AutoTyping",
-              "Interval": 0.05
-            }
-          ],
+          "behaviors": [],
           "string": "Ei, escute bem!\nVocê precisa eliminar o inimigo a frente, só assim poderá ter uma mínima chance de ganhar sua liberdade!\n\nSe não me obedecer já sabe o que vai acontecer...Hahahhahahahaha!!!",
           "font": "Baloo2-Bold.ttf",
           "characterSize": 30,
@@ -11805,10 +11799,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping"
-        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
