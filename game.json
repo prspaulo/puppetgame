@@ -1571,6 +1571,15 @@
         "name": "Cenário para seleção de avatar\\studio.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Icones/Caixa_fantoche_bom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icones\\Caixa_fantoche_bom.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1582,6 +1591,16 @@
       "name": "avatar",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "nomejogador",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "texto",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -10226,11 +10245,27 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39999999999999963,
+        "zoomFactor": 1.7200000000000006,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "timertexto",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "timertextoplayer",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "avatar_cena",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -10319,11 +10354,59 @@
           "layer": "",
           "locked": false,
           "name": "btniniciarjogo",
-          "persistentUuid": "4761054d-e9e2-4fa6-9cb4-f431952ae1a3",
+          "persistentUuid": "2404c4d0-7603-45c9-85b2-174684c25218",
           "width": 0,
-          "x": 1433,
-          "y": 815,
+          "x": 1423,
+          "y": 816,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "caixatextplayer",
+          "persistentUuid": "3cb98ec6-0115-4f44-860a-5693af282634",
+          "width": 0,
+          "x": 417,
+          "y": 659,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txtplayer",
+          "persistentUuid": "36f987bc-65d4-44cf-858b-c03073ec5763",
+          "width": 0,
+          "x": 705,
+          "y": 739,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "",
+          "locked": false,
+          "name": "inputtextplayer",
+          "persistentUuid": "8b9b167a-c015-4a1a-8d17-a606f3023ce2",
+          "width": 57,
+          "x": 962,
+          "y": 736,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10675,6 +10758,74 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txtplayer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Informe seu nome: ",
+          "font": "Baloo2-Bold.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 166,
+            "g": 160,
+            "r": 186
+          }
+        },
+        {
+          "name": "caixatextplayer",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Icones\\Caixa_fantoche_bom.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "inputtextplayer",
+          "tags": "",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -10724,109 +10875,298 @@
                 "caixatextoklaus"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "btniniciarjogo"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(timertexto)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(timertextoplayer)"
+              ],
+              "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "3"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "caixatextokai",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "caixatextrobin",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "caixatextoklaus",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "caixatextoklaus",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "avatar_cena",
+                "=",
+                "GlobalVariable(avatar)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "caixatextrobin",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "avatar_cena",
+                "=",
+                "GlobalVariable(avatar)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "caixatextokai",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "avatar",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "avatar_cena",
+                "=",
+                "GlobalVariable(avatar)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(timertexto)",
+                ">",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "caixatextokai"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "caixatextrobin"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "caixatextoklaus"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txtavatar"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "avatar_cena",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(timertexto)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -11033,14 +11373,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -11068,6 +11400,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "TextEntryVirtualKeyboard",
+          "type": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard"
+        },
         {
           "name": "Text_AutoTyping",
           "type": "AutoTyping::Text_AutoTyping"
@@ -12552,6 +12888,317 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Bouh",
+      "description": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.\n\nActions to open and close the keyboard are added. You can then use the Text Entry as usual.",
+      "extensionNamespace": "",
+      "fullName": "Mobile virtual keyboard for Text Entry",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWtleWJvYXJkLWNsb3NlIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDIzTDE2LDE5SDhNMTksOEgxN1Y2SDE5TTE5LDExSDE3VjlIMTlNMTYsOEgxNFY2SDE2TTE2LDExSDE0VjlIMTZNMTYsMTVIOFYxM0gxNk03LDhINVY2SDdNNywxMUg1VjlIN004LDlIMTBWMTFIOE04LDZIMTBWOEg4TTExLDlIMTNWMTFIMTFNMTEsNkgxM1Y4SDExTTIwLDNINEMyLjg5LDMgMiwzLjg5IDIsNVYxNUEyLDIgMCAwLDAgNCwxN0gyMEEyLDIgMCAwLDAgMjIsMTVWNUMyMiwzLjg5IDIxLjEsMyAyMCwzWiIgLz48L3N2Zz4=",
+      "name": "TextEntryVirtualKeyboard",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/keyboard-close.svg",
+      "shortDescription": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.",
+      "version": "0.0.1",
+      "origin": {
+        "identifier": "TextEntryVirtualKeyboard",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "javascript",
+        "virtual keyboard",
+        "mobile"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used on Text Entry objects.",
+          "fullName": "Mobile virtual keyboard for Text Entry",
+          "name": "TextEntryVirtualKeyboard",
+          "objectType": "TextEntryObject::TextEntry",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "onCreated",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "For each object which have this behavior, we create a HTML input with a unique ID. This ID is stored in the object to allow to retrieve the input later.",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nif (typeof document === \"undefined\") {\n    console.error(\"This behavior is only running in a Browser-like environment\");\n    return;\n}\n\n// Select and focus the input associated to the object when opening the keyboard\ngdjs._extensionMobileKeyboard.openKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n        input.value = textEntry.getString();\n        input.style.removeProperty(\"visibility\");\n        input.focus();\n    }\n}\n\n// Blur the input associated to an ID\ngdjs._extensionMobileKeyboard.closeKeyboardById = function (uniqueID) {\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        input.blur();\n        input.style.setProperty(\"visibility\", \"hidden\");\n    }\n}\n\n// Blur the input associated to an object\ngdjs._extensionMobileKeyboard.closeKeyboard = function (eventsFunctionContext) {\n    var uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\n    var input = document.getElementById(uniqueID);\n    if (input) {\n        var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n        textEntry.setString(input.value);\n        input.blur();\n        input.style.setProperty(\"visibility\", \"hidden\");\n    }\n}\n\n// Return the id of the current behavior object\ngdjs._extensionMobileKeyboard.getUniqueIdInObject = function (eventsFunctionContext) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    return eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput._uniqueId;\n}\n\n// Save an ID inside the object\nvar setUniqueIdInObject = function (id) {\n    var behaviorName = eventsFunctionContext.getBehaviorName(\"Behavior\");\n    eventsFunctionContext.getObjects(\"Object\")[0]._mobileKeyboardExtensionInput = { \"_uniqueId\": id };\n}\n\n// Create an input for the current object\nconst input = document.createElement(\"input\");\ninput.type = \"text\";\ninput.setAttribute(\"spellcheck\", \"false\"); // Disable spell checking (blue line on mobile under words)\ninput.style = \"background-color: transparent;border: 0px;outline: transparent;color: #0000;\";\n\n// Create an identifier that is unique\nvar uniqueId = \"GDevelop_Mobile_Keyboard_Input\" + Date.now() + '-' + Math.floor(Math.random() * 100000);\ninput.id = uniqueId; // Apply it to the input\nsetUniqueIdInObject(uniqueId); // Apply it to the object\n\ndocument.body.appendChild(input); // Add input to the document HTML\n\n// Handle key presses on the input\ninput.addEventListener(\"keyup\", function (event) {\n    input.focus();\n\n    // Force selection to be at the end (to mimic Text Entry)\n    var length_string = input.value.length;\n    input.setSelectionRange(length_string, length_string);\n\n    // Support for removing the last character\n    if (event.keyCode == 8 || event.keyCode == 46) { // 8=Backspace, 46=Del\n        input.value = input.value.slice(0, -1);\n    }\n\n    var textEntry = eventsFunctionContext.getObjects(\"Object\")[0];\n    textEntry.setString(input.value);//Edit textEntry _str value\n\n    if (event.keyCode === 13) { // 13=Enter key \n        //Send id to function for close keyboard\n        if (gdjs._extensionMobileKeyboard.closeKeyboard != undefined) {\n            gdjs._extensionMobileKeyboard.closeKeyboardById(uniqueId);\n        }\n    }\n}, { passive: false });\n",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Open mobile keyboard.",
+              "fullName": "Open mobile keyboard",
+              "functionType": "Action",
+              "group": "",
+              "name": "openKeyboard",
+              "private": false,
+              "sentence": "Open mobile keyboard, and save input in _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nif (gdjs._extensionMobileKeyboard.openKeyboard) { \n    gdjs._extensionMobileKeyboard.openKeyboard(eventsFunctionContext);\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Close mobile keyboard.",
+              "fullName": "Close mobile keyboard",
+              "functionType": "Action",
+              "group": "",
+              "name": "closeKeyboard",
+              "private": false,
+              "sentence": "Close mobile keyboard for _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\r\n\r\nif (gdjs._extensionMobileKeyboard.closeKeyboard) { \r\n    gdjs._extensionMobileKeyboard.closeKeyboard(eventsFunctionContext);\r\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "onOwnerRemovedFromScene",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "When we delete the object with this behavior, we delete the HTML input linked to it",
+                  "comment2": ""
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SystemInfo::IsMobile"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::JsCode",
+                      "inlineCode": "gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};\n\nvar uniqueID = gdjs._extensionMobileKeyboard.getUniqueIdInObject(eventsFunctionContext);\nvar element = document.getElementById(uniqueID);\nif (element) {\n    element.parentNode.removeChild(element);\n}",
+                      "parameterObjects": "",
+                      "useStrict": true,
+                      "eventsSheetExpanded": false
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryObject::TextEntry",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TextEntryVirtualKeyboard::TextEntryVirtualKeyboard",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        }
+      ]
+    },
     {
       "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
       "description": "Animate the text to simulate it being written character by character (also called \"typewriter\" effect), with a customizable time between each character. Useful for dialogue scenes or visual novels.\n\nAdd the behavior to a Text object (BBText, Bitmap Text object) and choose the interval between characters.\n\n* When the text changes, the automatic typing starts again from the beginning with the new text.\n* You can change the speed of the text typing by changing the interval with events.\n* Use a condition to check if the typing finished.\n* You can also pause the typing and resume it after.",
