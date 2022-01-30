@@ -1579,1140 +1579,6 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "characterselect",
-      "name": "characterselect",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 255,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 255,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.4199999999999995,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "cenarioselectpersonagem",
-          "persistentUuid": "a0a9fd38-c37e-497d-8786-9ee46f7e8ba3",
-          "width": 0,
-          "x": -293,
-          "y": 2,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "kai",
-          "persistentUuid": "9ad25644-99b8-4362-b988-78f728551880",
-          "width": 0,
-          "x": 420,
-          "y": 425,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "robin",
-          "persistentUuid": "fd297970-3b25-473f-8418-20f68abb7bc7",
-          "width": 0,
-          "x": 814,
-          "y": 431,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "klaus",
-          "persistentUuid": "3428ba18-da08-40a5-a315-2d84425f5086",
-          "width": 0,
-          "x": 1142,
-          "y": 327,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nklaus",
-          "persistentUuid": "69641213-89ca-4a31-b8ef-151cb5b704cd",
-          "width": 0,
-          "x": -277,
-          "y": 84,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nrobin",
-          "persistentUuid": "903ecc29-3b0f-4339-911f-49704ebd68bf",
-          "width": 0,
-          "x": -289,
-          "y": 68,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nkai",
-          "persistentUuid": "56701838-8062-4b25-a619-e6838cf670f0",
-          "width": 0,
-          "x": -310,
-          "y": 115,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "name": "cenarioselectpersonagem",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Cenário para seleção de avatar\\cenario-para-seleção-de-avatar.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "kai",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\Kai.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "klaus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\Klaus.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "robin",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\robin.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "nklaus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\botao-selecionar-klaus.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "nrobin",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\botão-selecionar-robin.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "nkai",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Variações avatar\\botão-selecionar-Kai.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "kai",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "kai",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "kai",
-                    "Tween",
-                    "\"Press\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "kai",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"avatarSelecionado\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "kai",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "kai",
-                "Tween",
-                "\"Press\"",
-                "1",
-                "1",
-                "\"boucePast\"",
-                "100",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "klaus",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "klaus",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "klaus",
-                    "Tween",
-                    "\"Press\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "klaus",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "3"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"avatarSelecionado\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "klaus",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "klaus",
-                "Tween",
-                "\"Press\"",
-                "1",
-                "1",
-                "\"boucePast\"",
-                "100",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "robin",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "robin",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "robin",
-                    "Tween",
-                    "\"Press\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "robin",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"boucePast\"",
-                    "100",
-                    "",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "avatar",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"avatarSelecionado\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "robin",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "robin",
-                "Tween",
-                "\"Press\"",
-                "1",
-                "1",
-                "\"boucePast\"",
-                "100",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "SineMovement",
-          "type": "SineMovement::SineMovement"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 255,
-      "disableInputWhenNotFocused": true,
       "mangledName": "tela",
       "name": "tela",
       "oglFOV": 90,
@@ -2733,7 +1599,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4199999999999995,
+        "zoomFactor": 0.3985672472953789,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3932,6 +2798,1140 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
+      "mangledName": "characterselect",
+      "name": "characterselect",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.4199999999999995,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cenarioselectpersonagem",
+          "persistentUuid": "a0a9fd38-c37e-497d-8786-9ee46f7e8ba3",
+          "width": 0,
+          "x": -293,
+          "y": 2,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "kai",
+          "persistentUuid": "9ad25644-99b8-4362-b988-78f728551880",
+          "width": 0,
+          "x": 420,
+          "y": 425,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "robin",
+          "persistentUuid": "fd297970-3b25-473f-8418-20f68abb7bc7",
+          "width": 0,
+          "x": 814,
+          "y": 431,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "klaus",
+          "persistentUuid": "3428ba18-da08-40a5-a315-2d84425f5086",
+          "width": 0,
+          "x": 1142,
+          "y": 327,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "nklaus",
+          "persistentUuid": "69641213-89ca-4a31-b8ef-151cb5b704cd",
+          "width": 0,
+          "x": -277,
+          "y": 84,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "nrobin",
+          "persistentUuid": "903ecc29-3b0f-4339-911f-49704ebd68bf",
+          "width": 0,
+          "x": -289,
+          "y": 68,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "nkai",
+          "persistentUuid": "56701838-8062-4b25-a619-e6838cf670f0",
+          "width": 0,
+          "x": -310,
+          "y": 115,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "cenarioselectpersonagem",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cenário para seleção de avatar\\cenario-para-seleção-de-avatar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "kai",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\Kai.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "klaus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\Klaus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "robin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\robin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nklaus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\botao-selecionar-klaus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nrobin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\botão-selecionar-robin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nkai",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Variações avatar\\botão-selecionar-Kai.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "kai",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "kai",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "kai",
+                    "Tween",
+                    "\"Press\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "kai",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "avatar",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"avatarSelecionado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "kai",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "kai",
+                "Tween",
+                "\"Press\"",
+                "1",
+                "1",
+                "\"boucePast\"",
+                "100",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "klaus",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "klaus",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "klaus",
+                    "Tween",
+                    "\"Press\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "klaus",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "avatar",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"avatarSelecionado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "klaus",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "klaus",
+                "Tween",
+                "\"Press\"",
+                "1",
+                "1",
+                "\"boucePast\"",
+                "100",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "robin",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "robin",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "robin",
+                    "Tween",
+                    "\"Press\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "robin",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "avatar",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"avatarSelecionado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "robin",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "robin",
+                "Tween",
+                "\"Press\"",
+                "1",
+                "1",
+                "\"boucePast\"",
+                "100",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
       "mangledName": "jogo",
       "name": "jogo",
       "oglFOV": 90,
@@ -3952,7 +3952,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7599999999999996,
+        "zoomFactor": 0.7595999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4175,8 +4175,8 @@
           "name": "Moldura_Barra_Vida_Player",
           "persistentUuid": "6ea495aa-aa55-436b-a4fa-17dd7a288477",
           "width": 0,
-          "x": 20,
-          "y": 25,
+          "x": 24,
+          "y": 24,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -8113,7 +8113,7 @@
               "parameters": [
                 "Vida_Player",
                 "=",
-                "6"
+                "7"
               ],
               "subInstructions": []
             },
@@ -10038,37 +10038,58 @@
                       "subInstructions": []
                     }
                   ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"gameover\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Animation"
+                  },
+                  "parameters": [
+                    "Arqui_Inimigo",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "AnimationEnded"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Animation"
-                      },
-                      "parameters": [
-                        "Arqui_Inimigo",
-                        "=",
-                        "6"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AnimationEnded"
-                      },
-                      "parameters": [
-                        "Arqui_Inimigo"
-                      ],
-                      "subInstructions": []
-                    }
-                  ]
+                  "parameters": [
+                    "Arqui_Inimigo"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -11014,8 +11035,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "final",
-      "name": "final",
+      "mangledName": "gameover",
+      "name": "gameover",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -11034,60 +11055,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2399999999999999,
+        "zoomFactor": 0.36577724490165614,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "tempo_imagem",
+          "type": "string",
+          "value": "0"
+        }
+      ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "cenaControleKai",
-          "persistentUuid": "a2ee0dd1-24d3-4ca6-a623-8e0337ce1312",
-          "width": 0,
-          "x": 1,
-          "y": 1,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "cenaControleKlaus",
-          "persistentUuid": "fffd51c2-04d8-47b1-864b-9118784101c3",
-          "width": 0,
-          "x": 2,
-          "y": 1,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "cenaControleRobin",
-          "persistentUuid": "0f2db44c-f9ff-4c0f-ad35-e82c99990ec8",
-          "width": 0,
-          "x": 2,
-          "y": 1,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -11097,8 +11076,8 @@
           "name": "cenario",
           "persistentUuid": "37f9d2ae-5c65-4cb3-88ad-37fd288d36f2",
           "width": 0,
-          "x": -319,
-          "y": -37,
+          "x": -324,
+          "y": -4,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -11110,12 +11089,28 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "final_roteiro",
-          "persistentUuid": "270b0d31-88c2-4c08-9fd1-166289916313",
+          "name": "txtgameover",
+          "persistentUuid": "bb1c0e61-8203-4954-8a1e-baac02758208",
           "width": 0,
-          "x": -1,
-          "y": 0,
-          "zOrder": 4,
+          "x": 430,
+          "y": 462,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "btnvoltainicio",
+          "persistentUuid": "e6172e2c-e7ca-4b2a-ab62-d44a670a73c3",
+          "width": 0,
+          "x": 897,
+          "y": 670,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11222,6 +11217,718 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Final alternativo - Se você matar o fantoche sombra\\Final alternativo - Se você matar o fantoche sombra\\Robin\\cena-avatar-manipulando-os-fantoches-Robin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cenario2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cenário para seleção de avatar\\cenario-para-seleção-de-avatar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cenario",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cenário para seleção de avatar\\cenario-para-seleção-de-avatar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "final_roteiro",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Final alternativo - Se você matar o fantoche sombra\\Final alternativo - Se você matar o fantoche sombra\\Klaus\\CENA-FINAL-SEGURANDO-ROTEIRO-KLAUS.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txtgameover",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "GAME OVER",
+          "font": "Baloo2-Bold.ttf",
+          "characterSize": 200,
+          "color": {
+            "b": 15,
+            "g": 77,
+            "r": 254
+          }
+        },
+        {
+          "name": "btnvoltainicio",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Icones\\botao_continuar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btnvoltainicio",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btnvoltainicio",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btnvoltainicio",
+                    "Tween",
+                    "\"Press\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "btnvoltainicio",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"boucePast\"",
+                    "100",
+                    "",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "avatar",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"tela\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "btnvoltainicio",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "btnvoltainicio",
+                "Tween",
+                "\"Press\"",
+                "1",
+                "1",
+                "\"boucePast\"",
+                "100",
+                "",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 10054768,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "final",
+      "name": "final",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.36577724490165614,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "tempo_imagem",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cenaControleKai",
+          "persistentUuid": "a2ee0dd1-24d3-4ca6-a623-8e0337ce1312",
+          "width": 0,
+          "x": 1,
+          "y": 1,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cenaControleKlaus",
+          "persistentUuid": "fffd51c2-04d8-47b1-864b-9118784101c3",
+          "width": 0,
+          "x": 2,
+          "y": 1,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cenaControleRobin",
+          "persistentUuid": "0f2db44c-f9ff-4c0f-ad35-e82c99990ec8",
+          "width": 0,
+          "x": 2,
+          "y": 1,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cenario",
+          "persistentUuid": "37f9d2ae-5c65-4cb3-88ad-37fd288d36f2",
+          "width": 0,
+          "x": -319,
+          "y": -37,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "final_roteiro",
+          "persistentUuid": "270b0d31-88c2-4c08-9fd1-166289916313",
+          "width": 0,
+          "x": -1,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "cenaControleKai",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Final alternativo - Se você matar o fantoche sombra\\Final alternativo - Se você matar o fantoche sombra\\Kai\\cena-avatar-manipulando-os-fantoches-Kai.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cenaControleKlaus",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Final alternativo - Se você matar o fantoche sombra\\Final alternativo - Se você matar o fantoche sombra\\Klaus\\cena-avatar-manipulando-os-fantoches-Klaus.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cenaControleRobin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Final alternativo - Se você matar o fantoche sombra\\Final alternativo - Se você matar o fantoche sombra\\Robin\\cena-avatar-manipulando-os-fantoches-Robin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cenario2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cenário para seleção de avatar\\cenario-para-seleção-de-avatar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11370,6 +12077,27 @@
                 "cenaControleRobin"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "final_roteiro"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(tempo_imagem)"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -11478,8 +12206,34 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(tempo_imagem)",
+                ">=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "final_roteiro",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
