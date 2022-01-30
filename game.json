@@ -8125,7 +8125,40 @@
               "parameters": [
                 "Vida_Arqui_Inimigo",
                 "=",
-                "9"
+                "10\n"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Fundo_Vida_Arqui_Inimigo",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Vida_Arqui_Inimigo",
+                "yes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Moldura_Barra_Vida_Arqui_Inimigo",
+                "yes"
               ],
               "subInstructions": []
             }
