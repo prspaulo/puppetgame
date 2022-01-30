@@ -1652,6 +1652,15 @@
         "name": "Icones\\controles.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Variações do fantoche/fantoche bom/29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Variações do fantoche\\fantoche bom\\29.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1676,6 +1685,194 @@
     }
   ],
   "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "studio",
+      "name": "studio",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.25999999999999945,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "time",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "persistentUuid": "7d4c252a-92b0-466c-85ca-97b8b2dfc703",
+          "width": 0,
+          "x": -301,
+          "y": 6,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Cenário para seleção de avatar\\studio.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(time)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "VariableString(time)",
+                ">",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"tela\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 10335032,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
@@ -6140,6 +6337,7 @@
           "effects": [],
           "behaviors": [
             {
+              "jumpSpeed": 1000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -6147,7 +6345,6 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -6649,7 +6846,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche mal\\29.png",
+                      "image": "Variações do fantoche\\fantoche bom\\29.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6666,7 +6863,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche mal\\29.png",
+                      "image": "Variações do fantoche\\fantoche bom\\29.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6683,7 +6880,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche mal\\29.png",
+                      "image": "Variações do fantoche\\fantoche bom\\29.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6700,7 +6897,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Variações do fantoche\\fantoche mal\\29.png",
+                      "image": "Variações do fantoche\\fantoche bom\\29.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6730,6 +6927,7 @@
           "effects": [],
           "behaviors": [
             {
+              "jumpSpeed": 1000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -6737,7 +6935,6 @@
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
@@ -6746,6 +6943,14 @@
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
+            },
+            {
+              "name": "StayOnScreen",
+              "type": "StayOnScreen::StayOnScreen",
+              "MarginTop": 0,
+              "MarginBottom": 0,
+              "MarginLeft": 0,
+              "MarginRight": 0
             }
           ],
           "animations": [
@@ -10888,6 +11093,10 @@
         {
           "name": "SineMovement",
           "type": "SineMovement::SineMovement"
+        },
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
         }
       ]
     },
@@ -10914,7 +11123,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8188476617574701,
+        "zoomFactor": 0.61884766175747,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11009,8 +11218,8 @@
           "name": "txtavatar",
           "persistentUuid": "130a93a3-cf3b-47bf-8e2f-fc8e0fc4d44b",
           "width": 818,
-          "x": 717,
-          "y": 707,
+          "x": 715,
+          "y": 722,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -11329,9 +11538,9 @@
           "font": "Baloo2-Bold.ttf",
           "characterSize": 30,
           "color": {
-            "b": 139,
-            "g": 36,
-            "r": 69
+            "b": 184,
+            "g": 101,
+            "r": 128
           }
         },
         {
@@ -13827,7 +14036,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6457772449016562,
+        "zoomFactor": 0.7257772449016563,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14873,198 +15082,156 @@
           "type": "Tween::TweenBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "studio",
-      "name": "studio",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.25999999999999945,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [
-        {
-          "name": "time",
-          "type": "string",
-          "value": "0"
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "persistentUuid": "7d4c252a-92b0-466c-85ca-97b8b2dfc703",
-          "width": 0,
-          "x": -301,
-          "y": 6,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "name": "NewObject",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Cenário para seleção de avatar\\studio.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "VariableString(time)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "VariableString(time)",
-                ">",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"tela\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 10335032,
-          "ambientLightColorG": 150995054,
-          "ambientLightColorR": 1869182049,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "@4ian",
+      "description": "Force the object to stay visible on the screen by setting back its position inside the viewport of the camera.",
+      "extensionNamespace": "",
+      "fullName": "Stay On Screen",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vbml0b3Itc2NyZWVuc2hvdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik05LDZINVYxMEg3VjhIOU0xOSwxMEgxN1YxMkgxNVYxNEgxOU0yMSwxNkgzVjRIMjFNMjEsMkgzQzEuODksMiAxLDIuODkgMSw0VjE2QTIsMiAwIDAsMCAzLDE4SDEwVjIwSDhWMjJIMTZWMjBIMTRWMThIMjFBMiwyIDAgMCwwIDIzLDE2VjRDMjMsMi44OSAyMi4xLDIgMjEsMiIgLz48L3N2Zz4=",
+      "name": "StayOnScreen",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg",
+      "shortDescription": "Force the object to stay visible on the screen by setting back its position inside the viewport of the camera.",
+      "version": "0.0.2",
+      "origin": {
+        "identifier": "StayOnScreen",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "positioning",
+        "camera",
+        "screen"
+      ],
+      "authorIds": [
+        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Force the object to stay visible on the screen by setting back its position inside the viewport of the camera.",
+          "fullName": "Stay on Screen",
+          "name": "StayOnScreen",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "group": "",
+              "name": "doStepPostEvents",
+              "private": false,
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "min(max(Object.X(), CameraX(Object.Layer(), 0) - CameraWidth(Object.Layer(), 0)/2 + Object.Behavior::PropertyMarginLeft()), CameraX(Object.Layer(), 0) + CameraWidth(Object.Layer(), 0)/2 - Object.Width() - Object.Behavior::PropertyMarginRight())"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "min(max(Object.Y(), CameraY(Object.Layer(), 0) - CameraHeight(Object.Layer(), 0)/2+ Object.Behavior::PropertyMarginTop()), CameraY(Object.Layer(), 0) + CameraHeight(Object.Layer(), 0)/2 - Object.Height() - Object.Behavior::PropertyMarginBottom())"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "longDescription": "",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "longDescription": "",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Top margin, in pixels",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MarginTop"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Bottom margin, in pixels",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MarginBottom"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Left margin, in pixels",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MarginLeft"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Right margin, in pixels",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MarginRight"
+            }
+          ]
+        }
+      ]
+    },
     {
       "author": "Bouh",
       "description": "Allow to open and close the virtual keyboard on mobile (iOS, Android). To be used with Text Entry objects.\n\nActions to open and close the keyboard are added. You can then use the Text Entry as usual.",
